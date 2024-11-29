@@ -5,5 +5,3 @@ var1=0
 for contador in range (0,n+1):
     var1=var1+contador
 print("La suma de numeros es",var1)
-
-         
