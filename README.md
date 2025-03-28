@@ -1,2 +1,0 @@
-# ProgramacionPython
-Mis primeros programas
