@@ -249,10 +249,9 @@ ACTIVIDADES EXTRAS:
 
   PASSWORD V.2
   En la VERSIÓN 2, el operador for se utiliza para recorrer cada carácter de la contraseña y verificar si cumple con los criterios establecidos. Dentro del bucle, se emplean los operadores if y   and para validar si la contraseña contiene al menos tres números, tres letras y dos símbolos.
-
   El método isdigit() se usa para contar los números, mientras que islower() y isupper() se utilizan para contar las letras minúsculas y mayúsculas, respectivamente.
-
   Todo esto, excepto el for, ya se usaba en la VERSIÓN 1, pero en esta versión, se implementa el bucle for para hacer las comprobaciones de manera más eficiente, iterando sobre cada carácter de   la contraseña y sumando los contadores necesarios.
+  Además, se tuvo que hacer un informe dónde adjuntábamos algunos testeos de contraseñas para evaluar la veracidad del programa y detectar sus errores.
 
   JUEGO 7.5
   FASE 1
@@ -260,5 +259,18 @@ ACTIVIDADES EXTRAS:
 
   FASE 2
   En la Fase 2, el programa mantiene el flujo de juego de la Fase 1 pero introduce un depósito inicial de 100 puntos. Según el resultado de cada partida, el depósito del jugador se ajusta: si     consigue 7.5 puntos, gana 10 puntos; si se pasa de 7.5, pierde 10 puntos; si se planta entre 6 y 7, gana 5 puntos; y si se planta con menos de 6, pierde 5 puntos. Si el depósito llega a 0, el   jugador ya no puede seguir jugando. Para gestionar el juego, se utilizan operadores como while para permitir que el jugador siga jugando mientras tenga puntos, input() para que el jugador       decida si continuar, y break para terminar los bucles cuando se alcanza un resultado. Las condicionales if-else actualizan el depósito según el desempeño del jugador.
-  
-  
+
+  FASE 3
+  En la Fase 3, el programa solicita un alias al jugador al inicio de la partida y, durante el transcurso del juego, muestra el alias del jugador, así como la carta actual y el acumulado de     
+  puntos tanto del jugador como de la banca (ordenador). La partida comienza siempre con el jugador, quien va pidiendo cartas hasta intentar alcanzar 7.5 puntos o el valor más cercano sin   
+  superarlo. Tras el turno del jugador, es el turno de la banca. La banca también recibe cartas aleatorias, y su puntuación se va mostrando en cada ronda. Luego de ambos turnos, se comparan las 
+  puntuaciones y se determina el ganador según las siguientes reglas:
+  Si el jugador obtiene exactamente 7.5 y la banca menos de 7.5, el jugador gana.
+  Si el jugador obtiene 7.5 o menos y la banca supera 7.5, el jugador gana.
+  Si ambos superan 7.5, pierden ambos.
+  Si el jugador tiene una puntuación inferior a la de la banca, gana la banca.
+  Si el jugador y la banca tienen el mismo valor, es un empate.
+  El programa reutiliza el código de las fases anteriores, como la gestión de cartas y la acumulación de puntuaciones, pero ahora incluye un competidor adicional: la banca. El comando   
+  random.choice() se usa para seleccionar cartas aleatorias para ambos jugadores, y el flujo del juego sigue la secuencia de pedir cartas, acumular puntuaciones y evaluar los resultados con 
+  condiciones if-else que determinan quién gana.
+  Además, se tuvo que llevar a cabo un informe dónde explicar el funcionamiento del programa, los extras añadidos y responder adecuadamente ante algunas situaciones que se nos podían presentar. 
