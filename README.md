@@ -72,4 +72,172 @@ CONDICIONALES
 34. Corrige los 4 errores o añade el código que necesites para que el siguiente programa se 
   ejecute correctamente.
 
-Z
+BUCLE FOR
+35. Programa que al introducir un número por teclado permita mostrar ese número de veces tu 
+  nombre.
+36. Programa que sume los n primeros números naturales. n Lo introduce el usuario.
+37. Programa que pregunte cuantas notas quiero introducir y para cada nota diga si estoy aprobado 
+  o suspendido.
+38. A partir del programa anterior, establece los rangos para que el usuario no pueda introducir 
+  notas inferiores a 0 y superiores a 10.
+39. Programa que pida n números y que, tras introducir el último número, debe aparecer por 
+  pantalla el número total de positivos, negativos y número de 0.
+40. Crea un programa que cuente todos los números pares hasta el número 50.
+41. Imprime el siguiente patrón utilizando for.
+42. Imprima el siguiente patrón con el ciclo for. 
+43. Realiza un programa que recorra con un for una palabra introducida por teclado y se imprima 
+  por pantalla cada letra.
+44. Realiza un programa que recorra todos los números comprendidos de 0 a 100 realizando saltos 
+  de 3 en 3. El resultado debe aparecer por pantalla en una línea con los números separados por ‘,’.
+45. Realiza un programa que permita introducir una palabra por teclado y puedas recorrer el string
+  distinguiendo vocales y las consonantes:
+46. A partir del programa anterior, soluciona el error que se produce en el test anterior con la 
+  palabra Abrigo utilizando únicamente una instrucción.
+47. Realiza un programa donde el usuario introduzca por teclado 2 intervalos, por pantalla se debe 
+  mostrar el rango de números teniendo en cuenta que se a<b la secuencia será incremental y si a>b 
+  la secuencia en descenso. Respeta el formato de salida.
+48. Realiza un programa que introduzcas por teclado una palabra ‘secreta’, consigue la longitud de 
+  esa palabra para que sea ese el criterio que establezca el rango del bucle de manera que el usuario
+  tenga x oportunidades para ver si letra introducida está en esa palabra.
+49. A partir del programa anterior, modifica el código para que al introducir la letra por teclado te 
+  indique en qué posición de la palabra se encuentra la letra.
+
+BUCLES WHILE
+50. Realiza un programa que de los buenos días 3 veces. Con While.
+51. A partir del programa anterior, modifica el código para que sea el usuario quién introduzca el 
+  número de veces que desea que repita la frase Buenos días. Con While.
+52. Realiza un programa que sume dos números enteros por teclado y presente el resultado por 
+  pantalla. El programa preguntará si deseas o no repetir la operación. Con While
+53. A partir del código anterior, haz que aparezca al finalizar el programa por pantalla el total las 
+  sumas y el número de repeticiones. Con While.
+54. Modifica el programa anterior y haz que se repita el ciclo automáticamente hasta que el total 
+  de todas las sumas sea superior a 50, será entonces cuando el programa finalice. No hará falta 
+  preguntar si deseas repetir la operación. En cada operación aparece por pantalla la suma de la 
+  operación y su acumulado. Para aquellos de vosotros que os fijáis en los detalles, controlar que el 
+  mensaje del acumulado es singular o plural... Con While
+55. Última vez que reutilizamos el mismo código.. lo prometo. A partir del programa anterior 
+  haz que sea todo exactamente igual pero teniendo en cuenta que el programa se repita siempre y 
+  cuando la suma acumulada sea superior a 50 o la suma acumulada sea par. Con While.
+56. Realiza un programa que gestione un establecimiento de venta de bocadillos. Un pedido se 
+  compone de: bocadillo, acompañamiento y bebida. Un cliente puede pedir más de un pedido. El 
+  dependiente a partir del menú (ver imagen), se encarga de introducir los datos. El menú solo se 
+  visualiza una vez al ejecutar el programa. El programa debe preguntar al dependiente tras la 
+  realización de un pedido, si quiere gestionar otro. 
+  El establecimiento contempla los siguientes descuentos:
+  Si el total a pagar es entre 20 y 30 euros, se aplica un descuento del 5%
+  Si el total a pagar es superior a 30 euros, se aplica un descuento del 15%
+  Una vez se finaliza la introducción de todos los pedidos de un cliente, debe aparecer por pantalla:
+  • El número de pedidos realizados.
+  • Total a pagar.
+  • Total con IVA (10%)
+  • Total con el descuento aplicado.
+56b. Opcional. Haz alguna o todas las mejoras en el programa anterior que a continuación se 
+  indican:
+  - Cuando se pregunta “si desea realizar otro pedido”, el encargado puede introducir s ó n en 
+  mayúscula o minúscula.
+  - Si el encargado introduce otro valor distinto a S o N, el programa debe repetir la pregunta e 
+  informar de que ha introducido un valor equivocado.
+  - El lugar de almacenar los precios en variables, utiliza una biblioteca (busca información) e investiga 
+  como moverte por los índices.
+  - Un pedido puede estar formado por 3, 2 o 1 componentes. Ej. Un usuario puede pedir únicamente
+  una bebida.
+57. Realiza un programa que permita adivinar un número comprendido entre 1 y 5. El programa 
+  debe controlar si el usuario introduce un número no comprendido entre 1 y 5.
+58. Modifica el programa anterior para que tengas 3 intentos. Utiliza while.
+59. Diseña un programa que “piense” un numero aleatorio entre 0 y 1000 para que nos pida que 
+  intentemos adivinarlo. En cada intento, el programa nos dirá si el numero introducido es mayor o 
+  menor del correcto. No utilices break para salir del bucle. Cuando se acierte el número debe 
+  mostrarse por pantalla un mensaje y el número de intentos.
+60. Diseña un programa que al introducir un número, realice su tabla de multiplicar del 1 al 10. 
+  Utiliza únicamente el while.
+61. A partir del código anterior, haz que el programa finalice si el valor de la tabla de multiplicar es
+  superior o igual a 40.
+62. Realiza un programa que pida dos números por teclado y presente por pantalla qué números 
+  hay pares e impares en ese rango. Utiliza for. Contempla si primer valor es superior al segundo.
+63. Realiza un programa que permita tirar 100 veces un dado y nos presente por pantalla el número
+  de veces que se repite cada número.
+64. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
+  -99. Será entonces cuando por pantalla aparecerán las siguientes estadísticas:
+  a) total de pares
+  b) total de impares
+  c) total de números positivos
+  d) total de números negativos
+  e) total de ceros
+  f) total de la suma de todos los números introducidos
+65. Programa que pida continuamente números por teclado hasta que el usuario introduzca el valor 
+  -99. Por pantalla debe aparecer cuál de todos los números introducidos es el mayo y cuál el menor.
+66. Repite el ejercicio 63. En lugar de ‘tirar’ 100 veces un dado, modifica el programa para ver cómo 
+  se comporta el dado en lanzamientos producidos durante aprox 3 segundos.
+67. Realiza de nuevo el programa de Password (fase 2). El password debe tener las siguientes 
+  consideraciones:
+  Debe tener una longitud entre 6 y 8 caracteres.
+  Debe contener como mínimo:
+  2 números mayores o iguales que 1 y menor o igual que 5
+  2 letras minúsculas
+  1 letra mayúscula
+  2 símbolos (*, _, @, &,/,#)
+  1 número mayor o igual que 6 y menor o igual que 5
+68. Añade al ejercicio anterior la posibilidad de que el programa pregunte si deseas o no continuar 
+  introduciendo passwords. Ej. “¿Deseas introducir otro password s/n?.
+
+LISTAS
+69. Realiza un programa que permita introducir una cantidad exacta de números, cada número se 
+  irá almacenando en una lista. El programa debe finalizar presentando por pantalla los números 
+  ordenados de menor a mayor.
+70. Crea un programa que permita introducir x palabras en una lista llamada lista1. Una vez 
+  introducidas, crea una nueva lista, llamada lista2, exactamente igual a lista1. Se deben mostrar por 
+  pantalla el contenidos de lista1 en orden ascendente y lista2 en orden descendente. Respeta el 
+  formato de entrada y salida tal y como se muestra en el testeo.
+71. Haz un programa que permita al usuario introducir letras en una lista (cantidad indefinida), en 
+  esta lista no deben almacenarse las letras que se han introducido repetidas.
+72. A partir del ejercicio anterior, se da por hecho que las vocales con o sin acento son repetidas y 
+  no deben almacenarse en la lista
+73. Diseña un programa que compruebe si los valores de la lista1 (casa,mesa,sal,sol,agua) están 
+  repetidos o no en la lista2 (casa,luz,tres,tren,sol,pan). Haz que permita visualizar que palabras se 
+  repiten y cuales no
+74. A partir del programa anterior, haz que se visualicen tanto las palabras que se repiten o no de 
+  entre las 2 listas.
+75. Crea una lista con el siguiente nombre lista1 y su contenido: a,b,D,x,r,X,3,h,w,2,i. Presenta por 
+  pantalla los siguientes resultados:
+  a. Cantidad total de valores
+  b. Cantidad de números
+  c. Cantidad de letras
+  d. Cantidad de mayúsculas
+  e. Suma de los valores numéricos
+76. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
+  y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
+  en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo.
+77. A partir de la lista del enunciado anterior, haz que el programa visualice por un lado las letras 
+  y por otro los números permitiendo escoger orden ascendente o descendente. Como observarás 
+  en la salida, el orden de las letras no es correcto, busca la manera de solucionarlo
+78. A partir de la lista definida en el ejercicio 75, haz que el programa pregunte qué valor se desea 
+  eliminar de la lista, siendo únicamente los números los valores permitidos para suprimir
+79. A través de la variable definida var1="a,b,1,r,sal,34,mar”. Pasa estos valores a una lista y haz 
+  que presente por pantalla cantidad de valores almacenada. Utiliza el método que corresponde. 
+  Máximo 3 líneas de código.
+80. Utilizando listas, crea un programa que te permita determinar si un número es decimal o no. 
+81. A partir de una lista definida, busca el método apropiado para que se visualice un valor de la 
+  lista al azar
+82. Modifica el programa anterior para que sea el usuario intente adivinar la palabra escogida al 
+  azar de la lista, indicando si es correcto o no. El programa debe no finaliza hasta que no se adivine 
+  la palabra
+83. Modifica el código del ejercicio anterior para que el programa permita repetir x partidas (hasta 
+  que el usuario lo decida). Tienes que controlar una puntuación de cada partida de la siguiente 
+  manera, si la palabra la aciertas a la primera son 8 puntos, si la aciertas a la segunda 7 puntos y así 
+  sucesivamente.
+  Una vez el usuario desea finalizar el programa tiene que sumar todas tus puntuaciones obtenidas. 
+  Si el total supera la media de la puntuación posible de todas las partidas, se puede decir que la 
+  suerte le acompaña, de lo contrario mejor no Se dediques a los juegos de azar . PISTA.. ¿existe 
+  algún método que permita sumar el contenido de una lista?
+84. A partir de la lista definida en el ejercicio 81, haz que se visualice por pantalla una de las 
+  palabras, pero con todas sus letras desordenadas. El usuario tendrá que recolocar y acertar la 
+  palabra secreta. El usuario tendrá 3 oportunidades para adivinar la palabra. 
+85. Te piden realizar un programa en que gestionen la media y la mediana de varias de tres 
+  asignaturas de legua: catalán, inglés y castellano. Una vez introducidos varios registros el 
+  programa debe mostrar la media y mediana los todos los alumnos introducidos.
+86. Realiza el ejercicio del DNI que encontrarás en el Sway.
+
+
+ACTIVIDADES EXTRAS:
+  PASSWORD
+  
