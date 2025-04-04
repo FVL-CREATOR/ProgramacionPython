@@ -239,6 +239,26 @@ LISTAS
 
 
 ACTIVIDADES EXTRAS:
-  PASSWORD
+
+  PASSWORD V.1
+  Este programa en Python valida si una contraseña cumple ciertos requisitos, usando solo condicionales (if, elif, else) y operadores básicos (==, !=, and, or). No se usan bucles ni estructuras   avanzadas. El password debe tener entre 6 y 8 caracteres. Si la longitud no es válida, se muestra un mensaje de error. Si lo es, se comprueba cada carácter por su posición (password[0],       
+  password[1], etc.).
+  Las condiciones son: el carácter en la posición 0 debe ser un número (isdigit()), el de la posición 1 una letra minúscula (islower()), el de la posición 2 una letra mayúscula (isupper()), el    de la posición 3 debe ser * o _, el de la posición 4 una minúscula, el de la 5 un número, el de la 6 un símbolo #, % o /, y si hay un carácter en la posición 7, debe ser también un número.
+  El programa muestra un mensaje de error personalizado por cada carácter incorrecto, y si todos son correctos, indica: “El format del PASSWORD és correcte”. Se combinan operadores lógicos como   "and", "or", y métodos como ".isdigit()", ".islower()", ".isupper()" para validar cada parte.
+  Por ejemplo, "4bAt7#3" pasa todas las condiciones, por lo que el mensaje será positivo. Otras entradas como “2Aaa” fallan por longitud; "9aA*a8#3" falla en la posición 1, y así con todas las    que no cumplan su formato específico.
+
+  PASSWORD V.2
+  En la VERSIÓN 2, el operador for se utiliza para recorrer cada carácter de la contraseña y verificar si cumple con los criterios establecidos. Dentro del bucle, se emplean los operadores if y   and para validar si la contraseña contiene al menos tres números, tres letras y dos símbolos.
+
+  El método isdigit() se usa para contar los números, mientras que islower() y isupper() se utilizan para contar las letras minúsculas y mayúsculas, respectivamente.
+
+  Todo esto, excepto el for, ya se usaba en la VERSIÓN 1, pero en esta versión, se implementa el bucle for para hacer las comprobaciones de manera más eficiente, iterando sobre cada carácter de   la contraseña y sumando los contadores necesarios.
+
+  JUEGO 7.5
+  FASE 1
+  Este programa implementa un juego cuyo objetivo es acercarse lo más posible a un valor total de 7.5 puntos sin excederlo. El jugador acumula puntos aceptando cartas que el programa ofrece al    azar. Cada carta tiene un valor igual a su número, excepto la sota (índice 10), el caballo (índice 11) y el rey (índice 12), que valen 0.5 puntos. Las cartas con los índices 8 y 9 no deben      aparecer en el juego, por lo que el programa se encarga de no ofrecerlas. El jugador puede aceptar la carta y sumar su valor a la puntuación acumulada o plantarse en cualquier momento. Si la    puntuación supera 7.5, el jugador pierde. Al finalizar, el programa evalúa la puntuación: si es exactamente 7.5, se felicita al jugador; si es mayor de 7.5, se informa de la pérdida; si está    entre 6 y 7, se considera una jugada conservadora, y si es menor de 6, se sugiere que el jugador podría haber arriesgado más. Al terminar la partida, se da al jugador la opción de repetirla.    Los operadores utilizados incluyen if-else para las condiciones de ganar o perder, random.choice() para seleccionar cartas aleatorias, += para acumular puntos y input() para que el jugador      decida si acepta o rechaza una carta o si se planta. El programa controla la lógica del juego, asegurando que las cartas con índices no válidos no se ofrezcan y gestionando la puntuación        según las reglas establecidas.
+
+  FASE 2
+  En la Fase 2, el programa mantiene el flujo de juego de la Fase 1 pero introduce un depósito inicial de 100 puntos. Según el resultado de cada partida, el depósito del jugador se ajusta: si     consigue 7.5 puntos, gana 10 puntos; si se pasa de 7.5, pierde 10 puntos; si se planta entre 6 y 7, gana 5 puntos; y si se planta con menos de 6, pierde 5 puntos. Si el depósito llega a 0, el   jugador ya no puede seguir jugando. Para gestionar el juego, se utilizan operadores como while para permitir que el jugador siga jugando mientras tenga puntos, input() para que el jugador       decida si continuar, y break para terminar los bucles cuando se alcanza un resultado. Las condicionales if-else actualizan el depósito según el desempeño del jugador.
   
   
